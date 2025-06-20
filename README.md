@@ -94,3 +94,18 @@ The **Airbnb Clone Project** is a full-stack web application inspired by Airbnb.
 
 ### 💳 Payment services
   + Securely handles transactions for bookings which may include payment tracking, method and status.
+
+  ## 5. 🔐 API Security
+
+  ### Key security measures
+
+- **Authentication:** Use JWT or OAuth2 to verify, manage user identity sessions.
+- **Rate limiting:** Protect APIs from denial-of-service attacks and abuse.
+- **Authorization:** Ensure only authorized users can perform certain actions.
+- **Data encryption:** Encrypt sensitive data at rest where necessary and in transit (HTTPS).
+
+### Why security is crucial
+
+- **User protection:** Prevent unauthorized access to personal data and accounts.
+- **System reliability:** Prevent malicious attacks that could disrupt service and functionalities.
+- **Financial integrity:** Secure booking processes and payment transactions.
