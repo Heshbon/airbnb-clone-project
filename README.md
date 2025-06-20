@@ -124,4 +124,3 @@ The **Airbnb Clone Project** is a full-stack web application inspired by Airbnb.
 
 - **GitHub Actions:** Automates testing, deployment, linting workflows.
 - **Docker:** Ensures consistent deployment environments from development to production.
-
