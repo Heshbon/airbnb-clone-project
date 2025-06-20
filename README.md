@@ -32,3 +32,41 @@ The **Airbnb Clone Project** is a full-stack web application inspired by Airbnb.
 
 ### ⚙️ **GitHub Actions**
  + Automates testing, deployment processes and linting through workflows that trigger on repository events.
+
+## 3. 🗃️ Database Design
+
+### Key Entities
+
+1. **Users**
+   - `id` (Primary Key)
+   - `username`
+   - `email`
+   - `password`
+   - `role` (host or guest)
+
+2. **Properties**
+   - `id`
+   - `user_id` (Foreign key to users)
+   - `title`
+   - `description`
+   - `location`
+
+3. **Bookings**
+   - `id`
+   - `property_id` (Foreign key)
+   - `user_id` (Foreign key)
+   - `check_in`
+   - `check_out`
+
+4. **Reviews**
+   - `id`
+   - `booking_id` (Foreign key)
+   - `rating`
+   - `feedback`
+
+5. **Payments**
+   - `id`
+   - `booking_id` (Foreign key)
+   - `amount`
+   - `payment_mode`
+   - `status`
