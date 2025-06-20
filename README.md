@@ -70,3 +70,10 @@ The **Airbnb Clone Project** is a full-stack web application inspired by Airbnb.
    - `amount`
    - `payment_mode`
    - `status`
+
+   ### Entity Relationships
+
+- A **User** can create multiple **Properties**.
+- A **Booking** belongs to one **Property** and one **User**.
+- A **Review** is linked to a **Booking**.
+- A **Payment** is associated with a **Booking**.
