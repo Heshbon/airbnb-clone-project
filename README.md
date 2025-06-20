@@ -16,23 +16,19 @@ The **Airbnb Clone Project** is a full-stack web application inspired by Airbnb.
 | **Test Automation Engineer** | Designs a test automation ecosystem.                                                                             |
 | **UI/UX Designer**           | Transforms a product vision into user-friendly designs.                                                          |
 
- ---
-
 ## 2. 🧰 Technology Stack
 
 ### 🔧 **Django**
-+ A high-level Python web framework used for building the backend, authentication logic, views, and managing models.
+ + A high-level Python web framework used for building the backend, authentication logic, views, and managing models.
 
 ### 🔗 **GraphQL**
-+ A query language that allows clients to request the data they need, reducing over-fetching and improving performance.
+ + A query language that allows clients to request the data they need, reducing over-fetching and improving performance.
 
 ### 🗄️ **MySQL**
-+ A powerful relational database management system used to store user data.
+ + A powerful relational database management system used to store user data.
 
 ### 🐳 **Docker**
-+ Used for creating isolated and replicable development environments for both production and local setups.
+ + Used for creating isolated and replicable development environments for both production and local setups.
 
 ### ⚙️ **GitHub Actions**
-+ Automates testing, deployment processes and linting through workflows that trigger on repository events.
-
----
+ + Automates testing, deployment processes and linting through workflows that trigger on repository events.
