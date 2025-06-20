@@ -116,9 +116,9 @@ The **Airbnb Clone Project** is a full-stack web application inspired by Airbnb.
 
 ### Importance
 
-- Easy collaboration.
-- Consistent code quality
-- Fewer bugs and manual errors.
+- Team collaboration.
+- Quality assurance.
+- Risk reduction.
 
 ### Tools used
 
