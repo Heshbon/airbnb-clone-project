@@ -109,3 +109,19 @@ The **Airbnb Clone Project** is a full-stack web application inspired by Airbnb.
 - **User protection:** Prevent unauthorized access to personal data and accounts.
 - **System reliability:** Prevent malicious attacks that could disrupt service and functionalities.
 - **Financial integrity:** Secure booking processes and payment transactions.
+
+## 6. ⚙️ CI/CD Pipeline
+
+**Continuous Integration (CI)** and **Continuous Deployment (CD)** are practices that automate testing, building, and deploying code to production environments.
+
+### Importance
+
+- Easy collaboration.
+- Consistent code quality
+- Fewer bugs and manual errors.
+
+### Tools used
+
+- **GitHub Actions:** Automates testing, deployment, linting workflows.
+- **Docker:** Ensures consistent deployment environments from development to production.
+
