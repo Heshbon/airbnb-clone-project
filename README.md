@@ -38,7 +38,7 @@ The **Airbnb Clone Project** is a full-stack web application inspired by Airbnb.
 ### Key Entities
 
 1. **Users**
-   - `id` (Primary Key)
+   - `id`
    - `username`
    - `email`
    - `password`
@@ -46,27 +46,27 @@ The **Airbnb Clone Project** is a full-stack web application inspired by Airbnb.
 
 2. **Properties**
    - `id`
-   - `user_id` (Foreign key to users)
+   - `user_id`
    - `title`
    - `description`
    - `location`
 
 3. **Bookings**
    - `id`
-   - `property_id` (Foreign key)
-   - `user_id` (Foreign key)
+   - `property_id`
+   - `user_id`
    - `check_in`
    - `check_out`
 
 4. **Reviews**
    - `id`
-   - `booking_id` (Foreign key)
+   - `booking_id`
    - `rating`
    - `feedback`
 
 5. **Payments**
    - `id`
-   - `booking_id` (Foreign key)
+   - `booking_id`
    - `amount`
    - `payment_mode`
    - `status`
